@@ -1,0 +1,141 @@
+.containerGeralIntegra {
+	color: white;
+	/* border: solid 2px red; */
+	margin-top: 2vh;
+	display: flex;
+	justify-content: space-between;
+}
+.containerDados {
+	/* border: solid 2px purple;*/
+
+	border-left: 10px solid;
+	border-radius: 10px;
+	border-image-slice: 1;
+	border-width: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-image-source: linear-gradient(to left, #955dff, #6faaff);
+	width: 600px;
+}
+.containerReserva {
+	/* border: solid 2px yellow; */
+	width: 850px;
+	display: flex;
+	justify-content: space-between;
+	background: linear-gradient(to left, #955dff, #6faaff);
+	border-radius: 10px;
+}
+.containerImagemEstacionamento {
+	/* border: solid 5px green; */
+	text-align: center;
+}
+.containerInfoEstacionamento h4 {
+	margin: 0;
+	padding: 0;
+}
+.containerInfoEstacionamento {
+	margin-top: 5vh;
+	margin-left: 10vw;
+}
+/* .containerInfoEstacionamento {
+	border: solid 2px blue;
+} */
+.containerDatas {
+	/* border: solid 2px yellow; */
+	width: 300px;
+	height: 500px;
+	overflow-y: scroll;
+}
+
+.headerContainerReserva {
+	text-align: center;
+	color: white;
+	padding: 10px;
+	/* border: solid 1px black; */
+	width: 300px;
+}
+.containerReservaForm {
+	/* border: solid 1px red; */
+	padding: 10px;
+}
+.data {
+	/* border: solid 2px red; */
+	width: 90%;
+	height: 50px;
+	color: white;
+	border-radius: 5px;
+	text-decoration: none;
+	background: black;
+	opacity: 0.9;
+	margin: 5px 0;
+	text-align: center;
+	padding-top: 15px;
+	cursor: pointer;
+}
+
+.data h4 {
+	padding: 0;
+	margin: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+#sub_form {
+	margin-top: 5px;
+	width: 100%;
+	background: linear-gradient(to left, #955dff, #6faaff);
+	font-family: Nunito;
+	color: white;
+	cursor: pointer;
+	padding: 10px;
+	border: solid 1px;
+	margin-left: 2px;
+}
+#verificar_disp:hover {
+	color: black;
+}
+#respostaAJAX {
+	color: white;
+	text-align: center;
+}
+.containerReservaForm input {
+	width: 200px;
+	border-radius: 5px;
+	padding: 5px;
+	border: none;
+	margin: 5px;
+	height: 50px;
+}
+.cem {
+	width: 98% !important;
+}
+.formulario_reserva {
+	display: none;
+}
+.erroRe {
+	height: 60px;
+	overflow-y: scroll;
+}
+.realizou {
+	color: white;
+	text-align: center;
+	padding-top: 2vh;
+	margin: 0 auto;
+}

@@ -1,0 +1,60 @@
+.divFormCriar {
+	/* border:solid 2px red; */
+	display: flex;
+	max-width: 250px;
+	text-align: center;
+	margin: 0 auto;
+}
+.inputy {
+	padding: 7px 40px 7px 12px;
+	border: 1px solid #e8eaed;
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: 0 1px 3px -2px #9098a9;
+
+	margin: 1px;
+	width: 100%;
+}
+.divFormCriar button,
+.quadrado button {
+	border: none;
+	width: 100%;
+	background: linear-gradient(to left, #955dff, #6faaff);
+	color: white;
+	padding: 5px;
+	font-family: Nunito;
+	border-radius: 5px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+.divFormCriar button:hover,
+.quadrado button:hover {
+	font-weight: bold;
+}
+#Capivari h4 {
+	color: white;
+	/* border:solid 1px red; */
+	max-width: 350px;
+	margin: 0 auto;
+	padding-left: 3vw;
+}
+.divDosPlanos {
+	/* border: solid 2px red; */
+	max-width: 900px;
+	height: 400px;
+	margin: 0 auto;
+	display: flex;
+flex-wrap: wrap;
+justify-content: center;
+	overflow-y: scroll;
+}
+.quadrado {
+	width: 200px;
+	height: 300px;
+	/* border:solid 2px yellow; */
+	margin-right: 1vw;
+}
+#Blumenau h3 {
+	color: white;
+	margin-left: 5vw;
+}

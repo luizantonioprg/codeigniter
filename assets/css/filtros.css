@@ -1,0 +1,89 @@
+#filtros,
+#filtros2 {
+	text-align: right;
+	/* border: solid 1px red; */
+	max-width: 800px;
+	margin: 5px auto;
+}
+#select_estacionamento,
+#select_estacionamento2,
+#select_estados,
+#select_categorias,
+#select_municipios,
+#datepicker,
+#datepicker2 {
+	padding: 7px 40px 7px 12px;
+	border: 1px solid #e8eaed;
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: 0 1px 3px -2px #9098a9;
+	cursor: pointer;
+}
+.container_select {
+	float: right;
+	text-align: left;
+	margin: 2px;
+}
+#container_municipio {
+	display: none;
+}
+#nav,
+#nav2,
+#nav3,
+#nav4,
+#navNova1,
+#navNova2 {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: right;
+}
+#nav a,
+#nav2 a,
+#nav3 a,
+#nav4 a,
+#navNova1 a,
+#navNova2 a {
+	color: white;
+	text-decoration: none;
+	border: solid 5px white;
+	padding: 5px;
+	border-radius: 5px;
+	margin-top: 5px !important;
+}
+#nav a:hover {
+	background: linear-gradient(to left, #955dff, #6faaff);
+}
+#nav2 a:hover {
+	background: linear-gradient(to left, #955dff, #6faaff);
+}
+#nav3 a:hover {
+	background: linear-gradient(to left, #955dff, #6faaff);
+}
+#nav4 a:hover {
+	background: linear-gradient(to left, #955dff, #6faaff);
+}
+#navNova1 a:hover {
+	background: linear-gradient(to left, #955dff, #6faaff);
+}
+#navNova2 a:hover {
+	background: linear-gradient(to left, #955dff, #6faaff);
+}
+.active {
+	background: linear-gradient(to left, #955dff, #6faaff);
+}
+/* #nav a:focus {
+	background: linear-gradient(to left, #955dff, #6faaff);
+} */
+
+#download {
+	border: solid 2px gray;
+}
+.bi,
+.bi-file-earmark-spreadsheet-fill {
+	color: #6faaff;
+}
+.containerExcel {
+	max-width: 930px;
+	text-align: right;
+	margin-bottom: 10px;
+}

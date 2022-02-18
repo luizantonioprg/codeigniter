@@ -1,0 +1,83 @@
+.dash_welcome {
+	margin-top: 1vh;
+	background-image: linear-gradient(to left, #955dff, #6faaff);
+	padding: 0px 20px;
+	border-bottom: solid 1px #6faaff;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 5vh;
+}
+#bem_vindo {
+	color: white;
+}
+
+#dashu_dados {
+	/* border: solid 2px green; */
+	padding-top: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+#dashu_dados input {
+	border: solid 5px white;
+	padding: 5px;
+	border-radius: 5px;
+	width: 500px;
+	margin-bottom: 5px;
+	font-family: Nunito;
+	font-size: 15px;
+}
+.aviso {
+	color: white !important;
+}
+#dashu_atualizar {
+	background-image: linear-gradient(to left, #955dff, #6faaff);
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+	width: 400px;
+}
+/* #dashu_atualizar:hover {
+} */
+#nome_usuario {
+	border-right: solid 10px #955dff !important;
+}
+#email_usuario {
+	border-right: solid 10px #6faaff !important;
+	margin-left: 5px;
+}
+#senha {
+	border-right: solid 10px wheat !important;
+}
+#confirmarSenha {
+	border-right: solid 10px #955dff !important;
+	margin-left: 5px;
+}
+#planos {
+	/* border: solid 1px red; */
+	text-align: center;
+	color: white;
+}
+#planos select {
+	border: solid 5px white;
+	padding: 5px;
+	border-radius: 5px;
+	width: 300px;
+	margin-bottom: 5px;
+	font-family: Nunito;
+	font-size: 20px;
+}
+.descricao_plano {
+	/* border: solid 2px pink; */
+	display: none;
+}
+.p-btn {
+	width: 300px;
+	/* border: solid 1px red; */
+	margin: 0 auto;
+}

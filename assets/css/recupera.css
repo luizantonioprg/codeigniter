@@ -1,0 +1,32 @@
+.containerRecupera {
+	/* border: solid 2px red; */
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 5vh;
+}
+.containerRecupera input {
+	width: 100%;
+	border-radius: 5px;
+	padding: 10px;
+	font-family: Nunito;
+	border: none;
+}
+.containerRecupera button {
+	margin-top: 5px;
+	width: 100%;
+	background: linear-gradient(to left, #955dff, #6faaff);
+	font-family: Nunito;
+	color: white;
+	cursor: pointer;
+	padding: 10px;
+}
+.containerRecupera button:hover {
+	font-weight: bold;
+}
+.containerRecupera h3 {
+	color: white;
+}
+.erro {
+	color: white;
+}
